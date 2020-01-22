@@ -1,0 +1,283 @@
+{
+  "order": {
+    "status": "pending",
+    "external_status": "Completed",
+    "source_primary_order_id": "{{primaryOrderId}}",
+    "source_secondary_order_id": "{{secondaryOrderId}}",
+    "external_created_at": "{{externalCreatedAt}}",
+    "external_updated_at": null,
+    "total_price_inc_tax": 99.99,
+    "total_price_ex_tax": 99.99,
+    "subtotal_price_inc_tax": 99.99,
+    "subtotal_price_ex_tax": 90.90,
+    "currency_code": "AUD",
+    "country_code": "AU",
+    "amount_paid": 99.99,
+    "site": "1",
+    "external_payment_method": "PayPal",
+    "external_payment_status": "NoPaymentFailure",
+    "external_invoice_number": null,
+    "external_shipping_status": null,
+    "notes": null,
+    "is_valid": true,
+    "is_complete": true,
+    "erp_order_id": null,
+    "external_order_type": null,
+    "external_fulfillment_channel": null,
+    "source_purchase_order_number": null,
+    "additionals": {},
+    "references": {},
+    "display_number": null,
+    "erp_order_creation_time": null,
+    "weight": null,
+    "discontinued": false,
+    "tax_code": "SalesTax",
+    "tax_rate": null,
+    "source": {
+      "name": "eBay Example",
+      "type": 0,
+      "channel_type": "EbayChannel"
+    },
+    "shipping_addresses": [
+      {
+        "first_name": "James",
+        "middle_name": "",
+        "last_name": "Hamblington",
+        "gender": null,
+        "salutation": null,
+        "title": null,
+        "street_line_1": "U4, 10-11 Simpsons Line of Road",
+        "street_line_2": "Bondi",
+        "street_line_3": null,
+        "city": "Sydney",
+        "state_or_region": "New South Wales",
+        "country_code": "AU",
+        "country": "Australia",
+        "company": "Fusion Factory Pty Ltd",
+        "phone": "99998888",
+        "post_code": "2000",
+        "email": null,
+        "external_address_id": null
+      }
+    ],
+    "order_lines": [
+      {
+        "order_line": {
+          "external_order_line_item_id": "201901250000-1600000000000",
+          "external_transaction_id": "1640000000000",
+          "is_virtual": null,
+          "external_item_id": "201600000000",
+          "external_sku": "ITEM504",
+          "item_bar_code": null,
+          "item_name": "New Amazing Men's Slim Fit Barracuda Hooded Jacket in Fawn[S]",
+          "item_description": null,
+          "external_item_condition": "New with tags",
+          "quantity": 1,
+          "external_quantity_unit": null,
+          "base_price": 50.00,
+          "total_price_inc_tax": 50.00,
+          "total_price_ex_tax": 50.00,
+          "base_cost": null,
+          "total_cost_inc_tax": null,
+          "total_cost_ex_tax": null,
+          "currency_code": "AUD",
+          "product_code": "Pink Scotch Plaid Shirt-S",
+          "notes": null,
+          "external_parent_sku": "1-4293",
+          "parent_product_code": "030604-BLB",
+          "discontinued_at": null,
+          "additionals": {},
+          "deliverable_quantity": null,
+          "unit_price_inc_tax": 99.99,
+          "unit_price_ex_tax": 99.99,
+          "back_ordered_quantity": null,
+          "kit_entries": null,
+          "total_tax_amount": 0
+        },
+        "discounts": [],
+        "taxes": [
+          {
+            "external_tax_class": "WasteRecyclingFee",
+            "tax_on": "total",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "ElectronicWasteRecyclingFee",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "SalesTax",
+            "tax_on": "handling",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "SalesTax",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "SalesTax",
+            "tax_on": "shipping",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "SalesTax",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "SalesTax",
+            "tax_on": "subtotal",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "SalesTax",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "SalesTax",
+            "tax_on": "total",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "SalesTax",
+            "hidden_amount": null,
+            "percent": null
+          }
+        ],
+        "options": []
+      },
+      {
+        "order_line": {
+          "external_order_line_item_id": "201901250000-1600000000001",
+          "external_transaction_id": null,
+          "is_virtual": null,
+          "external_item_id": null,
+          "external_sku": "ITEM501",
+          "item_bar_code": null,
+          "item_name": "Amazing Evening Print Shirt Blue 4 Xl",
+          "item_description": null,
+          "external_item_condition": "New",
+          "quantity": 1,
+          "external_quantity_unit": null,
+          "base_price": 50.00,
+          "total_price_inc_tax": 50.00,
+          "total_price_ex_tax": 50.00,
+          "base_cost": null,
+          "total_cost_inc_tax": null,
+          "total_cost_ex_tax": null,
+          "currency_code": "AUD",
+          "product_code": "Pink Scotch Plaid Shirt-M",
+          "notes": null,
+          "external_parent_sku": null,
+          "parent_product_code": null,
+          "discontinued_at": null,
+          "additionals": {},
+          "deliverable_quantity": null,
+          "unit_price_inc_tax": 79.99,
+          "unit_price_ex_tax": 79.99,
+          "back_ordered_quantity": null,
+          "kit_entries": null,
+          "total_tax_amount": 0
+        },
+        "discounts": [
+          {
+            "name": "",
+            "external_discount_type": "ShippingDiscount",
+            "amount_inc_tax": 0,
+            "amount_ex_tax": null,
+            "currency_code": "AUD",
+            "reference_code": null,
+            "promo_code": null,
+            "campaign_code": "",
+            "coupon_code": null,
+            "percent": null
+          },
+          {
+            "name": "",
+            "external_discount_type": "PromotionDiscount",
+            "amount_inc_tax": 0,
+            "amount_ex_tax": null,
+            "currency_code": "AUD",
+            "reference_code": null,
+            "promo_code": null,
+            "campaign_code": "",
+            "coupon_code": null,
+            "percent": null
+          }
+        ],
+        "taxes": [
+          {
+            "external_tax_class": "",
+            "tax_on": "gift_wrap",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "",
+            "tax_on": "shipping",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "",
+            "hidden_amount": null,
+            "percent": null
+          },
+          {
+            "external_tax_class": "",
+            "tax_on": "total",
+            "amount": 0,
+            "currency_code": "AUD",
+            "description": "",
+            "hidden_amount": null,
+            "percent": null
+          }
+        ],
+        "options": []
+      }
+    ],
+    "payments": [
+      {
+        "external_payment_method": "CreditCard",
+        "amount_paid": 100.00,
+        "currency_code": "AUD",
+        "payment_time": "2019-01-25T00:00:00",
+        "reference_number": "23B0000000000000L",
+        "reference_type": "ExternalTransactionID",
+        "payer": "EUS-1231",
+        "payee": "Amazing_official",
+        "fee_or_credit": 1.8,
+        "additional_information": null,
+        "additionals": {}
+      }
+    ],
+    "shipping_service": {
+      "external_shipping_method_code": "AU_Regular",
+      "external_shipping_method_name": null,
+      "price_inc_tax": 0,
+      "price_ex_tax": 0,
+      "cost_inc_tax": null,
+      "cost_ex_tax": null,
+      "currency_code": "AUD",
+      "shipping_method_code": null,
+      "shipping_tax_amount": 0
+    },
+    "parties": [],
+    "discounts": [],
+    "taxes": [],
+    "buyer": {
+      "personal_info": {
+        "external_id": "EUS-1231",
+        "company": null,
+        "first_name": "James",
+        "middle_name": null,
+        "last_name": "Hamblington",
+        "gender": null,
+        "salutation": null,
+        "title": null,
+        "email": "idontexist@gnomail.co",
+        "phone": null,
+        "mobile": null
+      }
+    }
+  }
+}

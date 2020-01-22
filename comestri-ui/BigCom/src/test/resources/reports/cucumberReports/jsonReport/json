@@ -1,0 +1,194 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-22T00:53:08.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6617155300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "bigcommerce-channel-test-for-v5-contextual;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 301673100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigate to homepage of Comestri",
+            "match": {
+              "location": "LoginStepDef.userNavigateToHomepageOfComestri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2480316500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logged in using username as \"iantesting5@fusionfactory.com\" and password as \"Fusion123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iantesting5@fusionfactory.com",
+                  "offset": 34
+                },
+                {
+                  "val": "Fusion123",
+                  "offset": 82
+                }
+              ],
+              "location": "LoginStepDef.login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32906300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see homepage",
+            "match": {
+              "location": "LoginStepDef.userShouldSeeHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11773800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "browser\u0027s URL should be \"https://staging-product.commerceconnect.co/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://staging-product.commerceconnect.co/\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDef.browserSURLShouldBe(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BigCommerceV3"
+          },
+          {
+            "name": "@V5"
+          },
+          {
+            "name": "@Contextual"
+          },
+          {
+            "name": "@Start"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-22T00:53:17.578Z",
+        "line": 16,
+        "name": "TearDown",
+        "description": "",
+        "id": "bigcommerce-channel-test-for-v5-contextual;teardown",
+        "after": [
+          {
+            "result": {
+              "duration": 814987100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6403500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has completed Test",
+            "match": {
+              "location": "LoginStepDef.userHasCompletedTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Test completed",
+            "match": {
+              "location": "LoginStepDef.testCompleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2740000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "log will be in place",
+            "match": {
+              "location": "LoginStepDef.logWillBeInPlace()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BigCommerceV3"
+          },
+          {
+            "name": "@V5"
+          },
+          {
+            "name": "@Contextual"
+          },
+          {
+            "name": "@last"
+          }
+        ]
+      }
+    ],
+    "name": "BigCommerce channel test for V5-Contextual",
+    "description": "",
+    "id": "bigcommerce-channel-test-for-v5-contextual",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/V5cm/ChannelBigcommerceV3.feature",
+    "tags": [
+      {
+        "name": "@BigCommerceV3",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest.testRunners.V5cm.ChannelBigCommerceV3Runner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.108 s - in CucumberTest.testRunners.V5cm.ChannelBigCommerceV3Runner
